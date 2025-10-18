@@ -171,7 +171,7 @@ const Register = () => {
           )} */}
           {/* {error && <p className="text-red-300">{error}</p>} */}
         </form>
-        <p>
+        <p className="text-center">
           Already have an Account? Please{" "}
           <Link className="text-blue-500 hover:text-blue-800" to="/login">
             Login
