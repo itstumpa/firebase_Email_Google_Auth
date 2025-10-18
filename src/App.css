@@ -1,6 +1,9 @@
 .menu a.active {
       /* text-decoration: underline; */
-      background-color: rgb(180, 92, 24);
+      background-color: #5754E8;
       border-radius: 5px;
-      padding: 8px;
+      padding: 8px 12px;
+      font-weight: bold;
+      
+      
 }

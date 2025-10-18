@@ -23,7 +23,7 @@ const Navbar = () => {
         <NavLink to="/" className="flex items-center gap-2">
         {/* Access public folder directly with /filename */}
         <img src="/logo.png" alt="STAR.IO Logo" className="h-8 w-8" />
-        <span className="text-xl font-bold text-gray-900">STAR.IO</span>
+        <span className="text-xl font-bold text-[white]">STAR.IO</span>
       </NavLink>
 
   </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
 
 
 
-    <NavLink to='/products' className="btn"><Github />Visit Shop</NavLink>
+    <NavLink to='https://github.com/itstumpa/firebase_Email_Google_Auth' className="btn bg-[#5754E8] px-6 hover:bg-[#4f4cf4] "><Github />Github</NavLink>
   </div>
 </div>
   )
